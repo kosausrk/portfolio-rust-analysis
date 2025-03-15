@@ -1,0 +1,17 @@
+//File structure 
+
+lft-rust-trader/
+│── src/
+│   │── main.rs                 # Entry point of the application
+│   │── portfolio.rs             # Portfolio file parser
+│   │── market_data.rs           # Polygon API integration
+│   │── risk_analysis.rs         # Risk-reward calculation
+│   │── trade_suggestions.rs     # Trade recommendations
+│── data/
+│   │── portfolio.csv            # Portfolio data (exported from Google Sheets)
+│── Cargo.toml                   # Rust dependencies and metadata
+│── .gitignore                    # Git ignore file (for unnecessary files)
+│── README.md                    # Documentation
+
+
+
